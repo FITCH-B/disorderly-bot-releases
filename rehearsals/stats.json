@@ -1,0 +1,23 @@
+{
+  "network": "Sepolia",
+  "updatedAt": "2026-11-23T21:11:45.632Z",
+  "lastRunAt": "2026-11-23T21:07:14.567Z",
+  "runs": 1,
+  "mints": 3,
+  "firstBlockHits": 3,
+  "firstBlockRate": 100,
+  "last30Days": {
+    "mints": 3,
+    "firstBlockRate": 100,
+    "medianPositionPct": 22
+  },
+  "timed": {
+    "mints": 2,
+    "firstBlockRate": 100
+  },
+  "open": {
+    "mints": 1,
+    "firstBlockRate": 100
+  },
+  "method": "Each run deploys three test drops on Sepolia (ERC-721 and a SeaDrop token with a start time, an open ERC-1155) and mints each with the real app engine. A hit is a mint that succeeds on its first send in the first block that could include it."
+}
